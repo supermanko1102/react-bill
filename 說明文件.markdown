@@ -1,6 +1,15 @@
 # 說明文件
 ## 配置文件
-- 由於目前不會後端 所以使用mock來建立假的資料
+- 參考pakage.json文件
+- 由於目前不會後端 所以使用mock來建立假的資料 npm run server  要先開啟
 - 使用cra的方式建立專案
-- css 使用antDesign moblie 主題定製化
+- css 使用ant Design moblie 主題定製化 +sass管理
 - 使用redux(rtk) 管理
+
+### 使用到的技術
+- Mock
+- redux
+- Sass
+- useState
+- useEfect
+- useMemo 搭配lodash

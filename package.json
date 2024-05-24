@@ -11,6 +11,7 @@
     "axios": "^1.7.2",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.11",
+    "lodash": "^4.17.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^9.1.2",
@@ -23,7 +24,7 @@
     "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server":"json-server ./server/data.json --port 8888"
+    "server": "json-server ./server/data.json --port 8888"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
-    "json-server": "^1.0.0-beta.0"
+    "json-server": "^1.0.0-beta.0",
+    "sass": "^1.77.2"
   }
 }
