@@ -1,0 +1,6 @@
+# 說明文件
+## 配置文件
+- 由於目前不會後端 所以使用mock來建立假的資料
+- 使用cra的方式建立專案
+- css 使用antDesign moblie 主題定製化
+- 使用redux(rtk) 管理
