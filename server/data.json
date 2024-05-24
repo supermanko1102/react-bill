@@ -1,0 +1,32 @@
+{
+    "ka":[
+        {
+            "type":"pay",
+            "money":"-99",
+            "date":"2024-05-20T09:11:11",
+            "useFor":"food",
+            "id":1
+        },
+        {
+            "type":"pay",
+            "money":"-99",
+            "date":"2024-05-20T09:11:11",
+            "useFor":"food",
+            "id":2
+        },
+        {
+            "type":"pay",
+            "money":"-99",
+            "date":"2024-05-20T09:11:11",
+            "useFor":"food",
+            "id":3
+        },
+        {
+            "type":"pay",
+            "money":"-79",
+            "date":"2024-05-20T09:11:11",
+            "useFor":"food",
+            "id":4
+        }
+    ]
+}
