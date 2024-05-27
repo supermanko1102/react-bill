@@ -55,7 +55,7 @@ const New = () => {
   }
   return (
     <div className="keepAccounts">
-      <NavBar className="nav" onBack={() => navigate(-1)}>
+      <NavBar className="nav" onBack={() => navigate('/')}>
         記一筆
       </NavBar>
 
