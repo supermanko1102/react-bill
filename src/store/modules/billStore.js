@@ -11,11 +11,14 @@ import axios from 'axios'
         //同步
         setBillList(state,action){
             state.billList  = action.payload
+        }, 
+        addBill (state, action) {
+            state.billList.push(action.payload)
         }
     }
 })
 //解構
-const {setBillList} = billStore.actions
+const {setBillList,addBill} = billStore.actions
 //非同步
 const getBillList =()=>{
     return async(dispatch)=>{
@@ -23,7 +26,13 @@ const getBillList =()=>{
         dispatch(setBillList(res.data))
     }
 }
+const addBillList = (data) => {
+    return async (dispatch) => {
+      const res = await axios.post('http://localhost:8888/ka', data)
+      dispatch(addBill(res.data))
+    }
+  }
 
-export { getBillList }
+export { addBillList, getBillList }
 const reducer = billStore.reducer
 export default reducer

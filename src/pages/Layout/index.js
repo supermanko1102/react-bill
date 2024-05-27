@@ -3,8 +3,7 @@ import { TabBar } from "antd-mobile"
 import {
     AddCircleOutline,
     BillOutline,
-    CalculatorOutline,
-    SmileOutline
+    CalculatorOutline
 } from 'antd-mobile-icons'
 import { useEffect } from "react"
 import { useDispatch } from "react-redux"
@@ -13,18 +12,13 @@ import './index.scss'
 const tabs = [
     {
         key: '/',
-        title: '今日帳單',
-        icon: <SmileOutline />,
-    },
+        title: '月度帳單',
+        icon: <BillOutline />,
+      },
     {
         key: '/new',
         title: '記帳',
         icon: <AddCircleOutline />,
-    },
-    {
-      key: '/month',
-      title: '月度帳單',
-      icon: <BillOutline />,
     },
     {
         key: '/year',
